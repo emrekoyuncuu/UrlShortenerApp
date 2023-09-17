@@ -1,9 +1,18 @@
-.container {
+.myContainer {
   height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.myFooter{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
 }
 
 .inputContainer div{
@@ -14,12 +23,12 @@
 .inputContainer h1{
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem;
-  color: bisque;
+  color: var(--fourth-color);
   margin-bottom: 1.5rem;
 }
 
 .inputContainer h1 span{
-  color: var(--primary-color);
+  color: var(--first-color);
 }
 
 .inputContainer input{
@@ -31,7 +40,7 @@
   font-size: 1rem;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  background-color: bisque;
+  background-color: var(--fourth-color);
 }
 
 .inputContainer input::placeholder{
@@ -47,7 +56,7 @@
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   color: white;
-  background-color: var(--primary-color);
+  background-color: var(--second-color);
   border: none;
   cursor: pointer;
 }
@@ -55,14 +64,15 @@
 /* Result */
 .result{
   display: flex;
-  align-items: center;
+  flex-direction: row; /* Öğeleri yatay olarak hizala */
+  align-items: flex-start; /* Öğeleri üstte hizala */
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
 
 .result p{
   color: #fff;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--first-color);
   padding: 0.5rem 1rem;
   margin-right: 1rem;
 }
@@ -71,13 +81,15 @@
   padding: 0.5rem 1rem;
   color: #fff;
   cursor: pointer;
-  background-color: var(--primary-color);
-  border: none;
+  background-color: var(--second-color);
+  border: 1px solid var(--first-color);
+  border-radius: 0.5rem;
 }
 
 .result button.copied {
   background-color: var(--green-success-color);
-  color: var(--primary-color);
+  font-weight: 800;
+  color: var(--third-color);
 }
 
 .noData {

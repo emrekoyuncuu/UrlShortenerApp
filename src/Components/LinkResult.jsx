@@ -7,6 +7,7 @@ const LinkResult = ({ inputValue }) => {
     const [copied, setCopied] = useState(false);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);
+    const [buttonText, setButtonText] = useState('Copy to clipboard');
 
     const fetchData = async () => {
         try {
@@ -29,6 +30,7 @@ const LinkResult = ({ inputValue }) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setCopied(false);
+            setButtonText('Copy to clipboard');
         }, 2000);
 
         return () => clearTimeout(timer);
@@ -37,9 +39,14 @@ const LinkResult = ({ inputValue }) => {
     if(loading) {
         return <p className="noData">Loading...</p>
     }
+    //burada bir teorik sıkıntım var ileride bakacağım. Şimdilik aktif değil!
     if(error) {
-        return <p className="noData">Something went wrong!</p>
+        <p className="noData">Something went wrong!</p>
     }
+
+    function handleClick() {
+        setButtonText('Copied!');
+      }
 
     return (
         <>
@@ -53,7 +60,7 @@ const LinkResult = ({ inputValue }) => {
                         onCopy={() => setCopied(true)}
                     >
 
-                        <button className={copied ? "copied" : ""}>Copy to clipboard</button>
+                        <button onClick={handleClick} className={copied ? "copied" : ""}>{buttonText}</button>
 
                     </CopyToClipboard>
                 </div>
