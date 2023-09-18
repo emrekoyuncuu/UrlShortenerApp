@@ -18,8 +18,10 @@ Lastly, I organized the project meticulously, and it now resides in a GitHub rep
 
 # Links
 
-[**Url Shortener App**](https://emrekoyuncuu.github.io/UrlShortenerApp/)
-[**App's Github Page**](https://github.com/emrekoyuncuu/UrlShortenerApp)
+####[**Url Shortener App**](https://emrekoyuncuu.github.io/UrlShortenerApp/)
+####**If you just want the link:** https://emrekoyuncuu.github.io/UrlShortenerApp/
+####[**App's Github Page**](https://github.com/emrekoyuncuu/UrlShortenerApp)
+####**Also Link version for GitHub:** https://github.com/emrekoyuncuu/UrlShortenerApp
 
 # URL Shortener App Architecture
 
