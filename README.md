@@ -16,7 +16,7 @@ To make the user experience more engaging, I threw in some pre-made CSS animatio
 
 Lastly, I organized the project meticulously, and it now resides in a GitHub repository. You can also check out the live website thanks to GitHub Pages.
 
-# Links
+# Link
 
 ### [Url Shortener App](https://emrekoyuncuu.github.io/UrlShortenerApp/)
 ##### If you just want the link: https://emrekoyuncuu.github.io/UrlShortenerApp/
