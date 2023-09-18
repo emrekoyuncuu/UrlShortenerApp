@@ -8,9 +8,9 @@ const MyNavbar = () => {
     <div>
 
     <Navbar fixed='top' bg="dark" data-bs-theme="dark">
-      <Navbar.Brand as={Link} className='myNavbar ms-4' to="/">Url Shorter</Navbar.Brand>
+      <Navbar.Brand as={Link} className='myNavbar ms-4' to="/UrlShortenerApp/">Url Shorter</Navbar.Brand>
       <Nav className="ms-auto me-4" >
-        <Nav.Link as={Link} to="about">About Me And Website</Nav.Link>
+        <Nav.Link as={Link} to="/UrlShortenerApp/about">About Me And Website</Nav.Link>
       </Nav>
     </Navbar>
 

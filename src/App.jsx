@@ -15,8 +15,8 @@ function App() {
         <MyNavbar />
         <BackgroundAnimate />
         <Routes>
-						<Route path="/" element={<Home />} /> 
-						<Route path="/about" element={<AboutMe />} />
+						<Route path="/UrlShortenerApp/" element={<Home />} /> 
+						<Route path="/UrlShortenerApp/about" element={<AboutMe />} />
 				</Routes>
         <MyFooter />
       </Router>
