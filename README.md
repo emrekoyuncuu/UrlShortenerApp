@@ -1,52 +1,127 @@
-# Url Shortener App
+<div align="center">
 
-I've recently started diving into the world of React, and this project marks my very first attempt in this exciting journey. So, without further ado, let me share what I've been up to.
+  <h1 align="center">URL Shortener App</h1>
 
-First off, I created an input screen to capture user input. To handle this input effectively, I set up a variable that dynamically captures text as it changes. When you hit the button, it does the job of copying the final version of the text.
+  <p align="center">
+    A simple and efficient URL shortening application built with React.js
+    <br />
+    <a href="https://emrekoyuncuu.github.io/UrlShortenerApp/" target="_blank">
+      <img src="https://img.shields.io/badge/LIVE%20DEMO-Click%20Here-brightgreen?style=for-the-badge&logo=github" alt="Live Demo" height="50">
+    </a>
+    <br />
+    <br />
+    <a href="https://github.com/emrekoyuncuu/UrlShortenerApp/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/emrekoyuncuu/UrlShortenerApp/issues">Request Feature</a>
+  </p>
 
-After that, I integrated the API from the shrtco site, making good use of the AXIOS library. This API makes it a breeze to grab data that users enter, which is then stored in a variable and shown on the screen. To make it easy for users to copy the content, I used in a library called 'react-copy-to-clipboard.'
+  <div align="center">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/API-0081CB?style=for-the-badge&logo=api&logoColor=white" alt="API">
+  </div>
+</div>
 
-It's worth mentioning that sometimes the API doesn't work very well as efficiently with certain links.
+<br />
 
-To spruce up the navigation, I crafted a nav bar, and for the user interface design, I opted for 'Bootstrap.' However, I'm considering using 'Material UI' for future projects as it might be a better fit.
+## 📋 Table of Contents
 
-For handling transitions between pages, I relied on the 'React Router DOM' library. Within the app's about page, I added three card structures using Bootstrap. Some of the buttons in these cards are now clickable, although not all of them have links because this project is more of a test run.
+- [📋 Table of Contents](#-table-of-contents)
+- [🚀 About The Project](#-about-the-project)
+  - [Key Features](#key-features)
+- [🛠️ Built With](#️-built-with)
+- [🏁 Getting Started](#-getting-started)
+- [💻 Usage](#-usage)
+- [🗺️ Roadmap](#️-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📧 Contact](#-contact)
+- [🙏 Acknowledgements](#-acknowledgements)
 
-To make the user experience more engaging, I threw in some pre-made CSS animations for the background, without resorting to any additional libraries.
+## 🚀 About The Project
 
-Lastly, I organized the project meticulously, and it now resides in a GitHub repository. You can also check out the live website thanks to GitHub Pages.
+<div align="center">
+  <img src="public/screenshot.png" alt="Project Screenshot 1" width="800" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <p><em>URL Shortener Interface</em></p>
+</div>
 
-# Link
+URL Shortener App is a web application that allows users to create shortened versions of long URLs. Built with React.js, it provides a simple and intuitive interface for quickly generating and copying short links. This project demonstrates the implementation of API integration, state management, and responsive design in a React application.
 
-### [Url Shortener App](https://emrekoyuncuu.github.io/UrlShortenerApp/)
-##### If you just want the link: https://emrekoyuncuu.github.io/UrlShortenerApp/
+### Key Features
 
-# URL Shortener App Architecture
+- 🔗 **Quick URL Shortening**: Instantly create short links for long URLs
+- 📋 **Copy to Clipboard**: One-click copying of shortened URLs
+- 🌐 **API Integration**: Utilizes a reliable URL shortening service
+- 📱 **Responsive Design**: Optimized for both desktop and mobile devices
+- 🎨 **Clean UI**: User-friendly interface with intuitive design
+- 🔄 **Input Validation**: Ensures valid URL inputs for reliable shortening
 
-## Frontend
+## 🛠️ Built With
 
-- **React**: Used to build the user interface.
-  - Components for input, button, navigation bar, and card structures.
-  - Utilizes state to capture and display user input.
-  - Integrates with API using Axios.
-  - Utilizes 'react-copy-to-clipboard' for easy content copying.
-  - Implements CSS animations for background effects.
+This project is created using these technologies:
 
-- **Bootstrap**: Chosen for UI design, including navigation bar and card structures.
-- **React Router DOM**: Handles page transitions.
-- **Google Fonts**: Used to enhance typography.
-- **Vite**: Build tool and development server for the frontend.
+- [React.js](https://reactjs.org/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [URL Shortening API](https://shrtco.de/docs/)
 
-## Backend
+## 🏁 Getting Started
 
-- **API Integration**: Utilizes the shrtco API.
-  - Fetches data from user input.
-  - Handles URL shortening.
+To get a local copy up and running, follow these simple steps:
 
-## Deployment
+1. Clone the repository
+   ``sh
+   git clone https://github.com/emrekoyuncuu/UrlShortenerApp.git
+   ``
+2. Navigate to the project directory
+   ``sh
+   cd UrlShortenerApp
+   ``
+3. Install dependencies
+   ``sh
+   npm install
+   ``
+4. Start the development server
+   ``sh
+   npm start
+   ``
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application
 
-- **GitHub Pages**: Hosts the live website.
+## 💻 Usage
 
-## Flow Chart
+1. Enter a long URL in the input field
+2. Click the "Shorten" button to generate a short URL
+3. Copy the shortened URL with a single click
+4. Use the shortened URL to access the original long URL
 
-![flow_chart](https://github.com/emrekoyuncuu/UrlShortenerApp/assets/80685689/5af20f4b-7ed1-47db-ab17-43791548d57f)
+## 🗺️ Roadmap
+
+See the [open issues](https://github.com/emrekoyuncuu/UrlShortenerApp/issues) for a list of proposed features and known issues.
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📧 Contact
+
+Emre Koyuncu - [LinkedIn](https://www.linkedin.com/in/emrekoyuncuu/) - emrekoyuncujob@gmail.com
+
+Project Link: [https://github.com/emrekoyuncuu/UrlShortenerApp](https://github.com/emrekoyuncuu/UrlShortenerApp)
+
+## 🙏 Acknowledgements
+
+- [React.js Documentation](https://reactjs.org/docs/getting-started.html)
+- [shrtcode API](https://shrtco.de/docs/)
+- [Font Awesome](https://fontawesome.com)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Img Shields](https://shields.io)
+
+<div align="center">
+  Made with ❤️ by <a href="https://github.com/emrekoyuncuu">Emre Koyuncu</a>
+</div>
