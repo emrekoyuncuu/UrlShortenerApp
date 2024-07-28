@@ -41,7 +41,7 @@
 ## 🚀 About The Project
 
 <div align="center">
-  <img src="public/screenshot.png" alt="Project Screenshot 1" width="800" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="public/screenshot1.png" alt="Project Screenshot 1" width="800" style="max-width: 100%; height: auto; margin-bottom: 20px;">
   <p><em>URL Shortener Interface</em></p>
 </div>
 
